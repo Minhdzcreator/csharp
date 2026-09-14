@@ -3,7 +3,7 @@ Class Library: Biên dịch ra tệp .dll, dùng làm thư viện chứa mã ngu
 Console Application: Biên dịch ra tệp thực thi, bắt buộc phải có hàm Main() làm điểm khởi chạy nên có thể tự chạy trực tiếp.
 
 2. ProjectReference khác với using như thế nào?
-ProjectReference: Thao tác ở mức cấu hình dự án (file .csproj) để liên kết thư viện vật lý vào mã nguồn.
+ProjectReference: Thao tác ở mức cấu hình dự án (file .csproj) để liên kết thư viện vật lý vào mã nguồn
 using: Thao tác ở mức viết code (file .cs) để gọi tắt tên namespace, giúp code ngắn gọn hơn.
 
 3. Tại sao có using MyLib nhưng vẫn lỗi nếu chưa ProjectReference?
